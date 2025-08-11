@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
 /* header */
 
 header {
