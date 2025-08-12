@@ -7,39 +7,101 @@ header {
   background-size: cover;
 }
 
+/* --- img no Mobile (Mobile) --- */
+
+@media (max-width: 768px) {
+  header {
+    background-image: linear-gradient(
+        rgba(7, 62, 183, 0.7),
+        rgba(32, 58, 116, 0.7)
+      ),
+      url("../assets/american/header-background.png");
+    background-position: 80% 50%;
+  }
+}
+
+/* seção dos vistos e serviços */
+
+.quick-link-box {
+  display: block;
+  background-color: #e9ecef;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.quick-link-box:hover {
+  transform: translateY(-5px);
+  background-color: #dce1e5;
+  color: #212529;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
 /* footer */
 
 .cta-footer {
-  background-image: url("../assets/american/footer-background.png");
+  background-image: linear-gradient(
+      rgba(45, 56, 69, 0.88),
+      rgba(45, 56, 69, 0.88)
+    ),
+    url("../assets/american/footer-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  padding-top: 6rem;
 }
 
 /* botões */
 
 .btn-primary {
   color: #fff;
-  background-color: #d3003a;
-  border: 1px solid #d3003a;
+  background-color: #fec010;
+  border: 1px solid #fec010;
   padding: 16px 32px;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 0px 4px 67px 0px rgba(255, 0, 0, 0.74);
   transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(254, 192, 16, 0.4);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #b00031;
-  border-color: #a3002d;
+  background-color: #e8ab01;
+  border-color: #d39c01;
   transform: translateY(-2px);
-  box-shadow: 0px 6px 70px 2px rgba(255, 0, 0, 0.78);
+  box-shadow: 0 6px 20px rgba(254, 192, 16, 0.6);
+  opacity: 1;
 }
 
 .btn-primary:active {
   transform: translateY(1px);
-  box-shadow: 0px 2px 50px 0px rgba(255, 0, 0, 0.7);
+  box-shadow: 0 2px 10px rgba(254, 192, 16, 0.3);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #312783;
+  border: 1px solid #312783;
+  padding: 16px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(49, 39, 131, 0.4);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #2a2170;
+  border-color: #241c60;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(49, 39, 131, 0.6);
+  opacity: 1;
+}
+
+.btn-secondary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(49, 39, 131, 0.3);
 }

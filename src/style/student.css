@@ -5,6 +5,19 @@ header {
   background-size: cover;
 }
 
+/* --- img no Mobile (Mobile) --- */
+
+@media (max-width: 768px) {
+  header {
+    background-image: linear-gradient(
+        rgba(7, 62, 183, 0.7),
+        rgba(32, 58, 116, 0.7)
+      ),
+      url("../assets/student/header-background.png");
+    background-position: 60% 50%;
+  }
+}
+
 /* seção dos vistos e serviços */
 
 .card-header-custom-blue {
