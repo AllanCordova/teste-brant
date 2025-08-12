@@ -1,0 +1,183 @@
+/* header */
+
+header {
+  background-image: url("../assets/visit-plan/header-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* --- img no Mobile (Mobile) --- */
+
+@media (max-width: 768px) {
+  header {
+    background-image: linear-gradient(
+        rgba(205, 209, 219, 0.7),
+        rgba(236, 237, 238, 0.7)
+      ),
+      url("../assets/visit-plan/header-background.png");
+    background-position: 80% 50%;
+  }
+}
+
+/* seção de planos */
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  background-color: #f8f9fa;
+  margin-bottom: 0.75rem;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  color: #495057;
+
+  display: flex;
+  align-items: center;
+}
+
+.feature-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem; /* Cria um espaço entre o ícone e o texto */
+}
+
+.pricing-table {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.pricing-header {
+  display: grid;
+  grid-template-columns: 5fr 4fr 3fr;
+  padding: 0.75rem 1.5rem;
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #312783;
+}
+
+.pricing-row {
+  display: grid;
+  grid-template-columns: 5fr 4fr 3fr;
+  padding: 1.25rem 1.5rem;
+  text-decoration: none;
+  color: #212529;
+  border-top: 1px solid #dee2e6;
+  transition: background-color 0.2s ease;
+}
+
+.pricing-row:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.pricing-row .price {
+  font-weight: 600;
+}
+
+/* seção de planos mobile */
+@media (max-width: 767px) {
+  .pricing-header {
+    display: none;
+  }
+
+  .pricing-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .pricing-row .plan::before {
+    content: "Plano: ";
+    font-weight: 600;
+    color: #312783;
+  }
+  .pricing-row .price::before {
+    content: "Valor: ";
+    font-weight: 600;
+    color: #312783;
+  }
+  .pricing-row .installments::before {
+    content: "Parcelas: ";
+    font-weight: 600;
+    color: #312783;
+  }
+}
+
+/* dream-baner section */
+
+.dream-section-wrapper {
+  background-color: #312783;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  padding: 4rem;
+}
+
+.dream-banner {
+  background-color: #312783;
+  color: #fff;
+  text-align: center;
+}
+
+.dream-banner .subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.dream-banner .title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.dream-line {
+  background-color: #312783;
+  padding: 0.8rem;
+}
+
+/* --- Ajustes para Telas Pequenas (Mobile) --- */
+@media (max-width: 767px) {
+  .dream-banner {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 3rem 1.5rem;
+  }
+
+  .dream-banner .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .dream-banner .title {
+    font-size: 1.8rem;
+  }
+}
+
+/* slider section */
+
+.swiper-container-wrapper {
+  position: relative;
+  padding: 0 50px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #8d8d8d;
+}
+
+/* footer */
+
+footer {
+  background-color: #312783;
+  padding: 3rem;
+}
+
+/* cores */
+
+.color-title {
+  color: #312783;
+}

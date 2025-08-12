@@ -9,6 +9,59 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* logo */
+
+.logo {
+  max-width: 200px;
+}
+
+/* fontes */
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* tamanhos */
+
+.text-h1 {
+  font-size: clamp(2.5rem, 1rem + 5vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.text-h2 {
+  font-size: clamp(1.8rem, 1rem + 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.text-body {
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);
+  line-height: 1.5;
+}
+
 /* SEÇÃO DE DEPOIMENTOS*/
 
 .testimonials-section {
