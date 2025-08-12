@@ -1,7 +1,7 @@
 /* header */
 
 header {
-  background-image: url("../assets/continue-studying/header-background.png") !important;
+  background-image: url("../assets/start-study/header-background.png") !important;
 }
 
 /* --- img no Mobile (Mobile) --- */
@@ -12,7 +12,7 @@ header {
         rgba(71, 72, 74, 0.7),
         rgba(54, 61, 67, 0.7)
       ),
-      url("../assets/continue-studying/header-background.png") !important;
+      url("../assets/start-study/header-background.png") !important;
     background-position: 80% 50%;
   }
 }

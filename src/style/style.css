@@ -123,6 +123,14 @@ body {
   font-weight: bold;
 }
 
+.link-footer {
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
+
 /* Ajustes no formulário */
 
 .cta-footer .form-control {
