@@ -1,0 +1,92 @@
+header {
+  background-image: url("../assets/student/header-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* seção dos vistos e serviços */
+
+.card-header-custom-blue {
+  background-color: #2a2f6e;
+  color: white;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.card-footer-custom-yellow {
+  background-color: #fec010;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+.card.card-custom {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.card-header-custom-blue:empty,
+.card-footer-custom-yellow:empty {
+  padding: 0;
+  border: none;
+}
+
+.quick-link-box {
+  display: block;
+  background-color: #e9ecef;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #495057;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.quick-link-box:hover {
+  transform: translateY(-5px);
+  background-color: #dce1e5;
+  color: #212529;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* footer */
+
+.cta-footer {
+  background-image: linear-gradient(
+      rgba(45, 56, 69, 0.88),
+      rgba(45, 56, 69, 0.88)
+    ),
+    url("../assets/student/footer-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* botões */
+
+.btn-primary {
+  color: #fff;
+  background-color: #fec010;
+  border: 1px solid #fec010;
+  padding: 16px 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(254, 192, 16, 0.4);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e8ab01;
+  border-color: #d39c01;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(254, 192, 16, 0.6);
+  opacity: 1;
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 10px rgba(254, 192, 16, 0.3);
+}

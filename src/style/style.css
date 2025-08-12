@@ -8,14 +8,6 @@ body,
 html {
   overflow-x: hidden;
 }
-/* header */
-
-header {
-  background-image: url("../assets/header-background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* SEÇÃO DE DEPOIMENTOS*/
 
@@ -74,15 +66,6 @@ header {
 
 /* FOOTER COM FORMULÁRIO (CTA)*/
 
-.cta-footer {
-  background-image: url("../assets/footer.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  padding-top: 6rem;
-}
-
 .cta-footer h4 {
   font-weight: bold;
 }
@@ -104,19 +87,4 @@ header {
   height: 40px;
   background-color: #2a313d;
   margin-top: 6rem;
-}
-
-/* botões */
-
-.btn-primary {
-  color: #fff;
-  background-color: #d3003a;
-  border-color: #d3003a;
-  box-shadow: 0px 4px 67px 0px rgba(255, 0, 0, 0.74);
-  padding: 16px;
-}
-
-.btn-primary:hover {
-  background-color: #b00031;
-  border-color: #a3002d;
 }
